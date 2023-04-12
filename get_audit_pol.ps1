@@ -1,4 +1,7 @@
+# Gets audit policies, punches it to a csv, working on comparing it to a csv with known values so you can just see which ones
+# don't match up
 # Get Local Audit Policy settings
+#
 $auditCategories = @("System", "Logon/Logoff", "Object Access", "Privilege Use", "Detailed Tracking", "Policy Change", "Account Management", "Directory Service Access", "Account Logon")
 $localAuditPolicy = auditpol.exe /get /category:* | Select-String -Pattern '^(.+)\s+(Success|Failure|Success and Failure|No Auditing)'
 $localAuditResults = $localAuditPolicy | ForEach-Object {
