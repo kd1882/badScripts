@@ -10,14 +10,18 @@ function Check-RegistryValue {
         [string]$ExpectedValue
     )
 
-    try {
-        $value = (Get-ItemProperty -Path $Path -Name $ValueName).$ValueName
-        if ($value -eq $ExpectedValue) {
-            return $true
-        } else {
+    if (Test-Path $Path) {
+        try {
+            $value = (Get-ItemProperty -Path $Path -Name $ValueName -ErrorAction Stop).$ValueName
+            if ($value -eq $ExpectedValue) {
+                return $true
+            } else {
+                return $false
+            }
+        } catch {
             return $false
         }
-    } catch {
+    } else {
         return $false
     }
 }
