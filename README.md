@@ -1,6 +1,6 @@
 # badScripts - Growing compilation of bash and powershell scripts for daily use
 
-### Not 'bad' bad, just not good, you know... 
+### Not 'bad' bad, just not good, you know... Powered by the robot.
 
 To run powershell scripts, same directory, .\scriptNameHere.ps1 (I can break it down better later...)
 
