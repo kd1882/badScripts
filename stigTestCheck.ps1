@@ -1,3 +1,5 @@
+# Not sure what this does, but it doesn't do what it's supposed to, maybe it does, idk.
+
 $results = @()
 
 # Check V-220697: Windows 10 Enterprise Edition 64-bit version
