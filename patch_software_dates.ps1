@@ -1,4 +1,4 @@
-# Function to check if a patch is out of date
+# Function to check if a patch is out of date and punches it out to a csv
 function Check-PatchStatus {
     param (
         [DateTime]$InstallDate
