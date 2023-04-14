@@ -19,4 +19,4 @@ Feel free to reach out or submit an issue for a specific script that you want ad
 
 Cheers.
 
-## run at your own risk, not liable for you nuking your system.
+## run at your own risk, not liable for you nuking your grandmas compaq.
