@@ -27,4 +27,4 @@ Feel free to reach out or submit an issue for a specific script that you want ad
 
 Cheers.
 
-## run at your own risk, not liable for you nuking your grandmas compaq.
+## run at your own risk, if you don't understand what you're running - try it in a VM first...
